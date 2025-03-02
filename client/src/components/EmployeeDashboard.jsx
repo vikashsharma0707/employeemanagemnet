@@ -1224,7 +1224,7 @@
 
 import React, { useState, useEffect } from 'react';
 import api from '../utils/api';
-import '../styles/App.css';
+import '../styles/app.css';
 
 const EmployeeDashboard = ({ user }) => {
   const [attendance, setAttendance] = useState({ date: '', status: '' });

@@ -6,7 +6,7 @@ import Register from './components/Register';
 import AdminDashboard from './components/AdminDasboard';
 import HRDashboard from './components/HrDashboard';
 import EmployeeDashboard from './components/EmployeeDashboard';
-import './styles/App.css';
+import './styles/app.css';
 
 function App() {
   const [user, setUser] = useState(null);
