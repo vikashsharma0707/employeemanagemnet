@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'https://employeemanagemnet.onrender.com//api';
+const baseURL = 'https://employeemanagemnet.onrender.com/api';
 
 const api = axios.create({
   baseURL,
